@@ -1,0 +1,28 @@
+<suite name="Suite1" parallel="methods" thread-count="4">
+    <test name="Test1">
+        <parameter name = "FirstName" value="Khasbiy"></parameter>
+        <parameter name = "LastName" value="Laylo"></parameter>
+        <parameter name = "browser" value="edge"></parameter>
+        <classes>
+            <class name="TestNG_Practices_1"></class>
+            <class name="TestNG_Practices_2"></class>
+            <methods>
+                <include name="TestCase_01"/>
+                <include name="TestCase_02"/>
+            </methods>
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name = "FirstName" value="Jason"></parameter>
+        <parameter name = "LastName" value="Stathem"></parameter>
+        <parameter name = "browser" value="chrome"></parameter>
+        <classes>
+            <class name="TestNG_Practices_1"></class>
+            <class name="TestNG_Practices_2"></class>
+            <methods>
+                <include name="TestCase_01"/>
+                <include name="TestCase_02"/>
+            </methods>
+        </classes>
+    </test>
+    </suite>
